@@ -4,11 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Laravel + Bootswatch Theme</title>
-<!-- Link to Bootswatch Theme CSS -->
+
 <link rel="stylesheet" href="{{ asset('css/bootstrap-lux.min.css') }}">
 </head>
 <body>
-<!-- Theme Navbar -->
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
 <div class="container">
 <a class="navbar-brand" href="#">ACT Bootswatch App</a>
@@ -16,12 +16,12 @@
 </div>
 </nav>
 <div class="container my-4">
-<!-- Theme Alert -->
+
 <div class="alert alert-dismissible alert-success">
 <strong>Theme Active!</strong> You have successfully integrated a custom Bootswatch
 theme into Laravel.
 </div>
-<!-- Card Section -->
+
 <div class="card border-primary mb-4">
 <div class="card-header">Bootswatch Integration Test</div>
 <div class="card-body">
@@ -35,7 +35,7 @@ match your chosen theme effortlessly.</p>
 
 </div>
 </div>
-<!-- Mandatory Bootstrap JS Bundle from Part 1 -->
+
 <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
 </body>
 </html>
